@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --size-font-title: 2.5rem;
+  --size-font-text: 1rem;
+
+  --color-primary: #fff;
+  --color-secondary: rgb(0, 0, 0);
+  --color-tertiary: rgb(216, 101, 73);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}

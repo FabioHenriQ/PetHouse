@@ -1,0 +1,35 @@
+.activated {
+  border-bottom: 3px var(--color-tertiary) solid;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-family: 'IM Fell English', 'Roboto', sans-serif;
+  font-size: var(--size-font-title);
+  color: var(--color-tertiary);
+  font-weight: 400;
+}
+
+p {
+  font-family: 'IM Fell English', 'Roboto', sans-serif;
+  font-size: var(--size-font-text);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--size-font-title);
+}

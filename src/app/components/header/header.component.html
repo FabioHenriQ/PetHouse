@@ -1,0 +1,14 @@
+<header>
+  <div class="logo">
+    <h1>Pet House</h1>
+    <p>Encontre seu melhor amigo</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a [routerLinkActiveOptions]="{exact: true}" [routerLinkActive]="['activated']" [routerLink]="['/']">Home</a></li>
+      <li><a [routerLinkActive]="['activated']" [routerLink]="['/about']">About</a></li>
+      <li><a [routerLinkActive]="['activated']" [routerLink]="['/donate']">Help/Donate</a></li>
+      <li><a [routerLinkActive]="['activated']" [routerLink]="['/contacts']">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
