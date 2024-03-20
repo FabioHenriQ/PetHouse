@@ -9,6 +9,7 @@ header {
   justify-content: space-around;
   align-items: center;
   color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 h1 {

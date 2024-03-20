@@ -1,0 +1,11 @@
+.ourPets__home {
+  background-image: url('../../../assets/images/homeDog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16%;
+}
