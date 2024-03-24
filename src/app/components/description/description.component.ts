@@ -10,4 +10,6 @@ import { Component, Input } from '@angular/core';
 export class DescriptionComponent {
   @Input() description: string = '';
   @Input() fontColor: string = '';
+  @Input() textShadow: string = '';
+  @Input() width: string = '';
 }

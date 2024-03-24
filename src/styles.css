@@ -2,7 +2,8 @@
 
 :root {
   --size-font-title: 2.5rem;
-  --size-font-text: 1rem;
+  --size-font-text: .91rem;
+  --size-font-button: 1.2rem;
 
   --color-primary: #fff;
   --color-secondary: rgb(0, 0, 0);

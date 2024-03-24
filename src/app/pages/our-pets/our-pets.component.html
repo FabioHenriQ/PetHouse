@@ -1,9 +1,46 @@
 <main>
   <section class="ourPets__home">
-    <app-subtitle [fontColor]="'var(--color-primary)'" subtitle="Não são apenas pessoas que precisam de uma casa"></app-subtitle>
-    <app-description [fontColor]="'var(--color-primary)'" description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"></app-description>
+    <app-subtitle
+      [fontColor]="'var(--color-primary)'"
+      [textShadow]="'2px 2px var(--color-secondary)'"
+      subtitle="Não são apenas pessoas que precisam de uma casa"
+    ></app-subtitle>
+    <app-description
+      [fontColor]="'var(--color-primary)'"
+      [textShadow]="'2px 2px var(--color-secondary)'"
+      [width]="'40%'"
+      description="Adotar um animal de estimação é muito mais do que trazer um novo membro para a família. É um ato de amor, compaixão e responsabilidade. Animais de estimação não são apenas companheiros leais, eles também trazem alegria, conforto e ensinam valiosas lições de vida."
+    ></app-description>
+    <app-button
+      [bgButtonColor]="'var(--color-tertiary)'"
+      [BorderRadius]="'20px'"
+      [colorFont]="'var(--color-secondary)'"
+      text="Faça um amigo"
+    ></app-button>
   </section>
-  <section></section>
+
+  <section class="ourPets__about">
+    <div class="about_img">
+      <img src="../../../../assets/images/dog-cat.png" alt="Pets">
+    </div>
+    <div class="about_info">
+      <app-subtitle
+        [fontColor]="'var(--color-secondary)'"
+        subtitle="Por quê adotar um animal de estimação"
+      ></app-subtitle>
+      <app-description
+        [fontColor]="'var(--color-secondary)'"
+        [width]="'90%'"
+        description="Adotar um animal de estimação é muito mais do que trazer um novo membro para a família. É um ato de amor, compaixão e responsabilidade. Animais de estimação não são apenas companheiros leais, eles também trazem alegria, conforto e ensinam valiosas lições de vida."
+      ></app-description>
+      <app-description
+        [fontColor]="'var(--color-secondary)'"
+        [width]="'90%'"
+        description="Adotar um animal de estimação é muito mais do que trazer um novo membro para a família. É um ato de amor, compaixão e responsabilidade. Animais de estimação não são apenas companheiros leais, eles também trazem alegria, conforto e ensinam valiosas lições de vida."
+      ></app-description>
+    </div>
+  </section>
+
   <section></section>
   <section></section>
   <section></section>

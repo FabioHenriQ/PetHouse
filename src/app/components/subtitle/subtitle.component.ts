@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class SubtitleComponent {
   @Input() subtitle: string = '';
   @Input() fontColor: string = '';
+  @Input() textShadow: string = '';
 }

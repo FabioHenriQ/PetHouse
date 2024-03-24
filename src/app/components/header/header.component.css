@@ -5,6 +5,7 @@
 header {
   position: absolute;
   width: 100%;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,7 +22,7 @@ h1 {
 
 p {
   font-family: 'IM Fell English', 'Roboto', sans-serif;
-  font-size: var(--size-font-text);
+  font-size: 1rem;
 }
 
 ul {
@@ -33,4 +34,5 @@ ul {
 a {
   text-decoration: none;
   color: var(--size-font-title);
+  font-family: 'IM Fell English', 'Roboto', sans-serif;
 }

@@ -1,0 +1,13 @@
+button {
+  padding: 13px;
+  border: 0;
+  font-size: var(--size-font-button);
+  cursor: pointer;
+  font-weight: 500;
+
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
