@@ -2,6 +2,7 @@
   <section class="ourPets__home">
     <app-subtitle
       [fontColor]="'var(--color-primary)'"
+      [fontWeight]="'200'"
       [textShadow]="'2px 2px var(--color-secondary)'"
       subtitle="Não são apenas pessoas que precisam de uma casa"
     ></app-subtitle>
@@ -26,6 +27,7 @@
     <div class="about_info">
       <app-subtitle
         [fontColor]="'var(--color-secondary)'"
+        [fontWeight]="'200'"
         subtitle="Por quê adotar um animal de estimação"
       ></app-subtitle>
       <app-description
@@ -41,7 +43,42 @@
     </div>
   </section>
 
-  <section></section>
+  <section class="ourPets__pets">
+    <app-subtitle
+      [fontColor]="'var(--color-secondary)'"
+      [fontWeight]="'200'"
+      subtitle="Nossos amigos que precisam de um lar"
+    ></app-subtitle>
+    <ul>
+      <li>
+        <img src="" alt="">
+        <p>A</p>
+        <app-button
+          text="Adote um pet"
+        ></app-button>
+      </li>
+      <li>
+        <img src="" alt="">
+        <p>A</p>
+        <app-button
+          text="Adote um pet"
+        ></app-button>
+      </li>
+      <li>
+        <img src="" alt="">
+        <p>A</p>
+        <app-button
+          text="Adote um pet"
+        ></app-button>
+      </li>
+   </ul>
+    <app-button
+      [bgButtonColor]="'var(--color-tertiary)'"
+      [BorderRadius]="'20px'"
+      [colorFont]="'var(--color-secondary)'"
+      text="Adote um pet"
+    ></app-button>
+  </section>
   <section></section>
   <section></section>
 </main>

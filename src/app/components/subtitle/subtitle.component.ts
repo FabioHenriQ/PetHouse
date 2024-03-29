@@ -11,4 +11,5 @@ export class SubtitleComponent {
   @Input() subtitle: string = '';
   @Input() fontColor: string = '';
   @Input() textShadow: string = '';
+  @Input() fontWeight: string = '';
 }
