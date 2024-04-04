@@ -1,0 +1,8 @@
+<ul>
+  @for (card of cardDonateInfo.card; track $index) {
+    <li>
+      <img src="{{ card.img }}" alt="{{ card.alt }}">
+      <p>{{ card.text }}</p>
+    </li>
+  }
+</ul>

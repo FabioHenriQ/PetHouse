@@ -53,3 +53,15 @@ li img {
   height: 170px;
   width: 170px;
 }
+
+.ourPets__donate {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 5% 0;
+}
+app-card-donate {
+  width: 100%;
+}
