@@ -34,7 +34,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 7%;
+  gap: 4%;
+  padding: 2%;
   height: 70vh;
 }
 ul {
@@ -47,4 +48,8 @@ ul {
 li {
   text-align: center;
   width: 50%;
+}
+li img {
+  height: 170px;
+  width: 170px;
 }

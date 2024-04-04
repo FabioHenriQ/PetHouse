@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color-secondary);
+}
+.footer_img {
+  height: 100%;
+  width: 100%;
+}
+.footer_img img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

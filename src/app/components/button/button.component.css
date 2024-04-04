@@ -1,9 +1,14 @@
+a {
+  text-decoration: none;
+}
+
 button {
-  padding: 13px;
+  padding: 8px;
   border: 0;
   font-size: var(--size-font-button);
   cursor: pointer;
   font-weight: 500;
+  border: 1px solid var(--color-tertiary);
 
   transition: all 0.3s ease-in-out;
 }
